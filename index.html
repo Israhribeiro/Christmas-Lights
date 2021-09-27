@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Christmas Lights</title>
+</head>
+<body>
+    <ul>
+        <li class="light red1"></li>
+        <li class="light red2 delay"></li>
+        <li class="light grn1"></li>
+        <li class="light grn2 delay"></li>
+        <li class="light red1"></li>
+        <li class="light red2 delay"></li>
+        <li class="light grn1"></li>
+        <li class="light grn2 delay"></li>
+        <li class="light red1"></li>
+        <li class="light red2 delay"></li>
+        <li class="light grn1"></li>
+        <li class="light grn2 delay"></li>
+        <li class="light red1"></li>
+        <li class="light red2 delay"></li>
+        <li class="light grn1"></li>
+        <li class="light grn2 delay last"></li>
+    </ul>
+    <div>
+        <button class="circle" onclick="on()">ON</button>
+        <button class="circle" onclick="off()">OFF</button>
+    </div>
+    <form id="form">
+        <input type="number" value="1" min="1" max="8" id="speed">
+        <button type="button" id="speedBtn">Change Speed</button>
+    </form>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
